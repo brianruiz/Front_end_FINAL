@@ -1,0 +1,70 @@
+body{
+  background-color:lightgrey;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.deepai.org/art-image/7f75af0f87a5490dba211145ab2674c1/light-blue-background-978e95.jpg);
+  background-size: cover ;
+  background-position: center;
+  
+}
+a{
+  text-decoration: none;
+}
+
+.Fila{
+  display: flex;
+  border: 1px dashed black;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  height: 80px;
+}
+
+.Texto{
+  background-color: none;
+  margin-left: 40px;
+  height: 100%;
+}
+.Titulo{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Desc{
+font-size: 15px;
+margin-top: 5px;
+}
+.Caja{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.Image{
+  position: relative;
+  width: 90px;
+  height: 100%;
+  margin-left: 5px;
+  border: black solid 0.6px;
+  border-radius: 0.5rem;
+}
+.LargeImage{
+  height: 250px;
+  border-radius: 1rem;
+  border:solid 1px black;
+
+}
+
+.LargeText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 1px;
+  border-radius: 1rem;
+  margin-top: 50px;
+  padding: 10px;
+}
