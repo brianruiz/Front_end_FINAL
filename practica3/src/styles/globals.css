@@ -1,0 +1,33 @@
+body{
+    background-color:goldenrod;
+}
+
+.subtitle{
+    color:black;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.piepagina{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+span{
+    color: black;
+}
+.magos{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mago{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+.links{
+color: black;
+}
